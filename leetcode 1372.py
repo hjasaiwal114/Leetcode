@@ -29,6 +29,6 @@ class Solution:
                 if frm == 'R':
                     q.append((node.right, 'R', 1))
         
-        return best
+        return best 
 
         
