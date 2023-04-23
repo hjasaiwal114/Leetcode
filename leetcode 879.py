@@ -13,4 +13,5 @@ class Solution:
                         dp[i][j][k]+=dp[i+1][j-group[i]][max(0,k-profit[i])]
                     dp[i][j][k]%=10**9+7
 
-        return dp[0][n][minProfit]                    
+        return dp[0][n][minProfit] 
+#18 april leetcode                    
