@@ -1,6 +1,6 @@
 class Solution:
     def findDifference(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:
-        s1, s2 = set(nums1), set(nums)
+        s1, s2 = set(nums1), set(nums2)
         res = [[] , []]
         for num1 in nums1:
             if num1 not in s2 and num1 not in res[0]:
