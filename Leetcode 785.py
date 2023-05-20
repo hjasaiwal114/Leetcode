@@ -16,8 +16,5 @@ class Solution:
                         q.append(nei)
                         odd[nei] = -1* odd[i]
             return True
-        
-        for i in range(len(graph)):
-            if not bfs(i):
-                return False
+                         return False
         return True
