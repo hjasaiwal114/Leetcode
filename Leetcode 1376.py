@@ -12,4 +12,4 @@ class Solution:
             for emp in adj[i]:
                 q.append((emp, time + informTime[i] ))
         
-        return res
+        return res 
