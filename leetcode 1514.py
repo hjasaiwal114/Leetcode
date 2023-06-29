@@ -23,4 +23,4 @@ class Solution(object):
             for q, adj in graph[node]:
                 if adj not in visited:
                     heapq.heappush(max_heap, (-(p*q), adj))
-        return 0
+        return 0 
