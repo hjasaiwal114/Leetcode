@@ -10,3 +10,7 @@ the largest varience possible among all substring of s.
 
 a substring is a contiguous sequence is characters whithin a string.
 """
+
+class Solution:
+    def largestVariance(self, s: str) -> int:
+        
