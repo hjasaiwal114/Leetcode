@@ -9,3 +9,6 @@ Return an array containing all the safe nodes of the graph. The answer should be
  
 """
 
+class Solution:
+    def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
+        
